@@ -25,7 +25,7 @@ export const SaveArchive = () => {
     };
 
     return (
-        <div>
+        <div className='archivo'>
             <h1>Carga de Archivos</h1>
             <input type="file" onChange={handleFileChange} />
             <button onClick={subirArchivo}>Subir Archivo</button>

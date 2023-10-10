@@ -1,3 +1,4 @@
+import './TableArchive.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -20,7 +21,7 @@ export const  TableArchive = () => {
     }
 
     return (
-        <div>
+        <div className='tabla'> 
             <h1>Lista de Datos</h1>
             <table>
                 <thead>

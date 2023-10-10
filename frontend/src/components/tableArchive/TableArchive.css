@@ -1,0 +1,15 @@
+.tabla {
+    margin: 20px; 
+}
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.tabla th, .tabla td {
+    border: 1px solid #2811ad;
+    padding: 8px;
+    text-align: left;
+}
