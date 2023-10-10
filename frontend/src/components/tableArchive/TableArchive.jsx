@@ -53,29 +53,29 @@ export const  TableArchive = () => {
                 <tbody>
                     {datos.map((dato) => (
                         <tr key={dato.id}>
-                            <td>{dato.fecha_creacion}</td>
-                            <td>{dato.cod_tipo_sol}</td>
-                            <td>{dato.tipo_solicitud}</td>
-                            <td>{dato.cod_tipo}</td>
-                            <td>{dato.tipo_trabajo}</td>
-                            <td>{dato.cod_plan_comercial}</td>
-                            <td>{dato.plan_comercial}</td>
+                            <td>{dato.fecha_CREACION}</td>
+                            <td>{dato.cod_TIPO_SOL}</td>
+                            <td>{dato.tipo_SOLICITUD}</td>
+                            <td>{dato.cod_TIPO}</td>
+                            <td>{dato.tipo_TRABAJO}</td>
+                            <td>{dato.cod_PLAN_COMERCIAL}</td>
+                            <td>{dato.plan_COMERCIAL}</td>
                             <td>{dato.componente}</td>
-                            <td>{dato.clase_servicio}</td>
-                            <td>{dato.area_servicio}</td>
+                            <td>{dato.clase_SERVICIO}</td>
+                            <td>{dato.area_SERVICIO}</td>
                             <td>{dato.ubicacion}</td>
                             <td>{dato.producto}</td>
                             <td>{dato.orden}</td>
-                            <td>{dato.desc_servicio}</td>
-                            <td>{dato.numero_servicio}</td>
-                            <td>{dato.estado_componente}</td>
+                            <td>{dato.desc_SERVICIO}</td>
+                            <td>{dato.numero_SERVICIO}</td>
+                            <td>{dato.estado_COMPONENTE}</td>
                             <td>{dato.nap}</td>
                             <td>{dato.posicion}</td>
                             <td>{dato.descripcion}</td>
                             <td>{dato.cliente}</td>
                             <td>{dato.direccion}</td>
-                            <td>{dato.cod_estado_ot}</td>
-                            <td>{dato.unidad_operativa}</td>
+                            <td>{dato.cod_ESTADO_OT}</td>
+                            <td>{dato.unidad_OPERATIVA}</td>
                         </tr>
                     ))}
                 </tbody>
